@@ -3,11 +3,12 @@ html, body{
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(82, 82, 82);
 }
 
 body{
     display: flex;
+    flex-align: column;
 }
 
 .navbar{
@@ -38,3 +39,4 @@ ul{
 a:hover{
     border-bottom: 1px solid rgb(255, 255, 255);
 }
+
